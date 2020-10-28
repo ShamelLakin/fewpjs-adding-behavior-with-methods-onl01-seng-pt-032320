@@ -15,7 +15,7 @@ class Dog {
     constructor(name, sex){
        this.name = name;
        this.sex = sex; 
-    }
+    } 
     speak(){
         return `${this.name} says woof!`
     }
@@ -31,6 +31,14 @@ class Bird{
         
     }
 }
+
+class Birds extends Bird{
+    constructor(name){
+      if(!(birds = Bird.this.sex)){
+        return '${this.name} says squawk!';
+      }
+    
+    }
 
 let bird2 = new Bird();
 bird2.speak();
